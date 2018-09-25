@@ -21,23 +21,23 @@ React.createElement(
 // Helper function
 
 // Regular function
-canShowSecretData() {
-  const { dataIsReady, isAdmin, userHasPermissions } = this.props 
-  return dataIsReady && (isAdmin || userHasPermissions) 
-  } 
-  
-  <div> 
-    {this.canShowSecretData() && <SecretData />} 
-  </div>
+// canShowSecretData() {
+//   const { dataIsReady, isAdmin, userHasPermissions } = this.props
+//   return dataIsReady && (isAdmin || userHasPermissions)
+//   }
+
+//   <div>
+//     {this.canShowSecretData() && <SecretData />}
+//   </div>
 
 // Getter
-get canShowSecretData() { 
-  const { dataIsReady, isAdmin, userHasPermissions } = this.props 
-  return dataIsReady && (isAdmin || userHasPermissions) 
-  } 
-  
-  <div> 
-  {this.canShowSecretData && <SecretData />} 
-  </div> 
+// get canShowSecretData() {
+//   const { dataIsReady, isAdmin, userHasPermissions } = this.props
+//   return dataIsReady && (isAdmin || userHasPermissions)
+//   }
+
+//   <div>
+//   {this.canShowSecretData && <SecretData />}
+//   </div>
 
 // ------------------------------ //
