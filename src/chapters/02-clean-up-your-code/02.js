@@ -16,8 +16,11 @@ React.createElement(
   ),
 )
 
+// ------------------------------ //
+
 // Helper function
 
+// Regular function
 canShowSecretData() {
   const { dataIsReady, isAdmin, userHasPermissions } = this.props 
   return dataIsReady && (isAdmin || userHasPermissions) 
@@ -36,3 +39,5 @@ get canShowSecretData() {
   <div> 
   {this.canShowSecretData && <SecretData />} 
   </div> 
+
+// ------------------------------ //
